@@ -1,5 +1,4 @@
 from pymarc import MARCReader, Record, Field
-from recordparser import MARCRecordObject, _tags
 
 class AlephSequentialReader(MARCReader):
     """
